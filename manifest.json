@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Floatplane Larger Player",
+  "version": "0.1.1",
+  "description": "Make Floatplane's default viewer 1920x1080 for 1440p monitors, and 1280x720 for 1080p monitors!",
+  "permissions": ["https://www.floatplane.com/post/*"],
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://www.floatplane.com/post/*"]
+  }]
+
+}
